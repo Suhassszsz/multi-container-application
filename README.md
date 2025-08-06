@@ -4,23 +4,21 @@ This project demonstrates a multi-container Docker architecture consisting of a 
 
 📁 Project Structure
 
-multi container app:
+- **frontend/** – Frontend web application  
+  - Dockerfile – Frontend container configuration  
+  - [project files]
 
- frontend/ # Frontend web application
- - Dockerfile # Frontend container configuration
- - [project files]
+- **backend/** – Backend API service  
+  - Dockerfile – Backend container configuration  
+  - [project files]
 
- backend/ # Backend API service
- - Dockerfile # Backend container configuration
-- [project files]
+- **nginx/** – Nginx reverse proxy service  
+  - Dockerfile – Nginx container configuration  
+  - nginx.conf – Proxy configuration
 
-nginx/ # Nginx reverse proxy service
- - Dockerfile # Nginx container configuration
-- nginx.conf # Proxy configuration
+- **docker-compose.yml** – Defines and connects all services
 
-docker-compose.yml # Defines and connects all services
-
-README.md # Project documentation
+- **README.md** – Project documentation
 
 
  ⚙️ Components Overview
