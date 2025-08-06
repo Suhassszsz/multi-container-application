@@ -18,8 +18,8 @@ nginx/ # Nginx reverse proxy service
  - Dockerfile # Nginx container configuration
 - nginx.conf # Proxy configuration
 
-docker-compose.yml # Defines and connects all services
-README.md # Project documentation
+- docker-compose.yml # Defines and connects all services
+- README.md # Project documentation
 
 
  ⚙️ Components Overview
