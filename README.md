@@ -4,22 +4,22 @@ This project demonstrates a multi-container Docker architecture consisting of a 
 
 📁 Project Structure
 
-multi-container-app:
-│
-├── frontend/ # Frontend web application
-│ ├── Dockerfile # Frontend container configuration
-│ └── [project files]
-│
-├── backend/ # Backend API service
-│ ├── Dockerfile # Backend container configuration
-│ └── [project files]
-│
-├── nginx/ # Nginx reverse proxy service
-│ ├── Dockerfile # Nginx container configuration
-│ └── nginx.conf # Proxy configuration
-│
-├── docker-compose.yml # Defines and connects all services
-└── README.md # Project documentation
+multi container app:
+
+ frontend/ # Frontend web application
+ - Dockerfile # Frontend container configuration
+ - [project files]
+
+ backend/ # Backend API service
+ - Dockerfile # Backend container configuration
+- [project files]
+
+nginx/ # Nginx reverse proxy service
+ - Dockerfile # Nginx container configuration
+- nginx.conf # Proxy configuration
+
+docker-compose.yml # Defines and connects all services
+README.md # Project documentation
 
 
  ⚙️ Components Overview
@@ -66,11 +66,11 @@ multi-container-app:
 
 Step 1: Clone the Repository
 
-Download the project to your local system.
+- Download the project to your local system.
 
 Step 2: Build and Start Containers
 
-Use Docker Compose to build and spin up all containers simultaneously. This ensures all components (frontend, backend, and Nginx) are up and connected.
+- Use Docker Compose to build and spin up all containers simultaneously. This ensures all components (frontend, backend, and Nginx) are up and connected.
 
  Step 3: Access the Application
 
