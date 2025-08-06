@@ -86,3 +86,9 @@ Step 2: Build and Start Containers
 📄 License
 
 - This project is open source and intended for educational and developmental use.
+
+🙋‍♂️ Author
+
+- Suhas S
+
+- GitHub: @Suhassszsz
